@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_dialog_toast"
+            android:paddingBottom="16dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:paddingTop="13dp">
+
+        <ProgressBar
+                android:id="@+id/dialog_progressbar"
+                style="@android:style/Widget.ProgressBar.Large.Inverse"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerHorizontal="true">
+        </ProgressBar>
+
+        <TextView
+                android:id="@+id/dialog_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dialog_progressbar"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:maxLines="4"
+                android:paddingTop="13dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp">
+        </TextView>
+    </RelativeLayout>
+
+</merge>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eSpace</string>
+    <string name="androidversion">V1.0</string>
+    <string name="accountsetinfo">If you have enabled an eSpace Mobile account, you will receive an email from the
+        administrator. You can complete account settings following instructions in the email.
+    </string>
+    <string name="begin">Start</string>
+    <string name="btn_done">Finish</string>
+    <string name="network_setting">Server Settings</string>
+    <string name="address">Address</string>
+    <string name="iphint">www.yourcompany.com</string>
+    <string name="port">Port</string>
+    <string name="svncheck">Security Gateway Access</string>
+    <string name="svngate">Security Gateway</string>
+    <string name="svngateaccount">Security Gateway Account</string>
+    <string name="svngatepass">Security Gateway Password</string>
+    <string name="svnport">Security Gateway Port</string>
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="serverblank">The server IP address cannot be empty.</string>
+    <string name="portblank">The port number cannot be empty.</string>
+    <string name="net_address_format_error">Incorrect server IP address format.</string>
+    <string name="svnportblank">The security gateway port number cannot be empty.</string>
+    <string name="svn_port_error">Security gateway port range: 1-65535.</string>
+    <string name="net_port_error">Server port range: 1-65535.</string>
+    <string name="svnipblank">The security gateway IP address cannot be empty.</string>
+    <string name="svn_account_empty_prompt">The security gateway account cannot be empty.</string>
+    <string name="svn_pwd_empty_prompt">The security gateway password cannot be empty.</string>
+    <string name="svn_address_format_error">Incorrect security gateway address format.</string>
+    <string name="savepass">Remember password</string>
+    <string name="login">Log In</string>
+    <string name="hw_copy_right">Copyright © Huawei Technologies Co., Ltd. 1998-2013. All rights reserved.</string>
+    <string name="account_login_otherplace">Your account has logged in somewhere else.</string>
+    <string name="login_3g_disabled">Use the Wi-Fi network to access the eSpace.</string>
+    <string name="uc_login_right_limit_android">Sorry,this version is not for your enterprise. Please download the
+        version for your enterprise from Google Play, AppChina, or Huawei Hispace.
+    </string>
+    <string name="request_failed">Request failure</string>
+    <string name="etimeout">Network connection timed out. Check your network settings</string>
+    <string name="request_error">An error in sending a request.</string>
+    <string name="has_logined_error">Has logged in</string>
+    <string name="connect_error">Server connection failure. Check the network settings.</string>
+    <string name="module_error_1">The server fails to respond. Retry or contact the administrator.</string>
+    <string name="module_error_10">The eSpace mobile function is disabled.</string>
+    <string name="module_error_11">Device ID Error.</string>
+    <string name="module_error_2">Your session timed out.</string>
+    <string name="module_error_20">Failed to join the meeting.</string>
+    <string name="module_error_30">The meeting does not exist.</string>
+    <string name="module_error_31">Failed to invite the participant.</string>
+    <string name="module_error_35">The participant is not in the meeting.</string>
+    <string name="module_error_4">Terminal request error.</string>
+    <string name="module_error_43">The talk right does not need to be changed.</string>
+    <string name="module_error_5">The server is busy. Try again later.</string>
+    <string name="module_error_50">Incorrect MAA address.</string>
+    <string name="module_error_6">Your account has logged in somewhere else.</string>
+    <string name="module_error_7">Incorrect page number.</string>
+    <string name="module_error_8">The messaging service is unavailable.</string>
+    <string name="module_error_9">Disconnected from the server. Re-log in</string>
+    <string name="login_on_pc_desc">This account has logged in to a PC client. Log in from the current terminal?
+    </string>
+    <string name="login_on_mobile_desc">This account has logged in to a mobile client. Log in from the current
+        terminal?
+    </string>
+    <string name="login_on_web_desc">This account has logged in to a web client. Log in from the current terminal?
+    </string>
+    <string name="login_on_pad_desc">This account has logged in to a tablet client. Log in from the current terminal?
+    </string>
+    <string name="login_on_ipphone_desc">This account has logged in to an IP phone client. Log in from the current
+        terminal?
+    </string>
+    <string name="pls_input_uname">Enter the account.</string>
+    <string name="pls_input_pwd">Enter the password.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_sure">OK</string>
+
+    <string name="online">Online</string>
+    <string name="busy">Busy</string>
+    <string name="away">Away</string>
+
+
+</resources>

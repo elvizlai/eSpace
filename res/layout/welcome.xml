@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_bg">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/middle_layout">
+
+            <ImageView
+                    android:id="@+id/espace_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/logo_img"/>
+
+            <ImageView
+                    android:id="@+id/ivLogoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/espace_image"
+                    android:background="@drawable/logo_text"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ivLogoText"
+                    android:layout_marginLeft="56.0dp"
+                    android:layout_marginTop="48.0dp"
+                    android:layout_marginRight="56.0dp"
+                    android:text="@string/accountsetinfo"
+                    android:textSize="12.0sp"
+                    android:lineSpacingExtra="8.0dp"
+                    android:textColor="@color/welcome_accountinfo_text"/>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_below="@id/middle_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dp"
+                android:layout_marginLeft="56.0dp"
+                android:layout_marginRight="56.0dp">
+
+            <Button
+                    android:id="@+id/start_setting_network"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/login_button"
+                    android:text="@string/begin"
+                    android:minHeight="39.0dp"
+                    android:gravity="center"
+                    android:textSize="14.0sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

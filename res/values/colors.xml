@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="welcome_accountinfo_text">#ffcccccc</color>
+    <color name="item_background">#fff2f4f5</color>
+    <color name="netcolor">#ffbebebe</color>
+    <color name="conversation_name_color">#ff333333</color>
+    <color name="text_gray">#ff666666</color>
+    <color name="cwhite">#ffcccccc</color>
+    <color name="white">#ffffffff</color>
+    <color name="bg_dialog_window">#00333333</color>
+    <color name="bg">#ff353737</color>
+</resources>

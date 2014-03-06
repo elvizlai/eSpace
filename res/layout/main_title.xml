@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/a_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a_title_left"/>
+
+    <!--用来显示未读消息-->
+    <TextView
+            android:id="@+id/unread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_alignRight="@id/a_title_left"
+            android:layout_alignTop="@id/a_title_left"/>
+
+    <ImageView
+            android:id="@+id/self_head"
+            android:layout_toRightOf="@id/a_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_self_normal_head"/>
+
+    <!--实时状态显示-->
+    <ImageView
+            android:id="@+id/cur_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/self_head"
+            android:layout_alignRight="@id/self_head"
+            android:src="@drawable/recent_offline_small"/>
+
+    <ImageView
+            android:id="@+id/dail_phone"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone_04"/>
+
+
+    <!--此处margin预留，待调试后编辑-->
+    <ImageView
+            android:id="@+id/a_title_bg_line"
+            android:layout_toLeftOf="@id/dail_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/a_title_bg_line"/>
+    <ImageView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:layout_toLeftOf="@id/a_title_bg_line"/>
+    <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a_title_bg_line"
+            android:layout_toLeftOf="@id/search"/>
+
+</RelativeLayout>

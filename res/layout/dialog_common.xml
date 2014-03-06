@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="303dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bg_dialog">
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:id="@+id/dialog_message"
+              android:layout_weight="1.0" android:paddingLeft="18dp"
+              android:paddingRight="18dp" android:paddingTop="16dp"
+              style="@style/dialog_text_new" android:lineSpacingExtra="6dp"/>
+
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="42dp" android:paddingRight="17dip"
+                  android:paddingLeft="17dip" android:layout_marginBottom="12dp"
+                  android:layout_marginTop="12dp">
+        <Button android:layout_width="130dp"
+                android:layout_height="fill_parent" android:text="@string/btn_cancel"
+                android:background="@drawable/selector_btn_gray" android:layout_weight="1"
+                android:layout_marginRight="8dip" style="@style/dialog_text_new"
+                android:id="@+id/dialog_leftbutton"/>
+
+        <Button android:layout_width="130dp"
+                android:layout_height="fill_parent" android:text="@string/btn_sure"
+                android:background="@drawable/selector_btn_gray" android:layout_weight="1"
+                style="@style/dialog_text_new" android:id="@+id/dialog_rightbutton"/>
+
+    </LinearLayout>
+
+</LinearLayout>
